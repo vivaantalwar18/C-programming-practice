@@ -1,4 +1,4 @@
-//Write a program to change the value of a variable to ten times its current value.
+//Write a program to change the value of a variable to thirty times its current value.
 #include <stdio.h>
 void change_to_thirty_times(int*);
 void change_to_thirty_times(int* a){
