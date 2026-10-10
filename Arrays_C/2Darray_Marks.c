@@ -7,11 +7,11 @@ void main()
 
     printf("Enter marks of 3 students in 5 subjects:\n");
 
-    for(i = 0; i < 3; i++)
+    for (i = 0; i < 3; i++)
     {
         printf("Enter marks for Student %d:\n", i + 1);
 
-        for(j = 0; j < 5; j++)
+        for (j = 0; j < 5; j++)
         {
             printf("Subject %d: ", j + 1);
             scanf("%d", &marks[i][j]);
@@ -20,11 +20,11 @@ void main()
 
     printf("Total Marks of Each Student:");
 
-    for(i = 0; i < 3; i++)
+    for (i = 0; i < 3; i++)
     {
         total = 0;
 
-        for(j = 0; j < 5; j++)
+        for (j = 0; j < 5; j++)
         {
             total += marks[i][j];
         }
@@ -34,11 +34,11 @@ void main()
 
     printf("\nAverage Marks of Each Subject:\n");
 
-    for(j = 0; j < 5; j++)
+    for (j = 0; j < 5; j++)
     {
         sum = 0;
 
-        for(i = 0; i < 3; i++)
+        for (i = 0; i < 3; i++)
         {
             sum += marks[i][j];
         }
